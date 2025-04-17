@@ -7,7 +7,7 @@ import React, {
 	useEffect,
 	ReactNode,
 } from 'react';
-import { Module, Subject, SemesterAverages, ExpandedModules } from './types';
+import { Module, SemesterAverages, ExpandedModules } from './types';
 import {
 	calculateSubjectGrade,
 	calculateSemesterAverage,

@@ -15,7 +15,9 @@ import { Badge } from '@/components/ui/badge';
 import { Search, Filter, Save } from 'lucide-react';
 import { useGradeContext } from './GradeContext';
 import { getGradeColor, getGradeStatus } from './utils';
-import { Subject, Module } from './types';
+// We need the type definitions for TypeScript, but they're used implicitly
+// in the component through the useGradeContext hook
+import type { Subject } from './types';
 
 interface GradeTableProps {
 	semester: number;
